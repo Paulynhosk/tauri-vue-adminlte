@@ -3,7 +3,7 @@
   "build": {
     "beforeBuildCommand": "yarn build",
     "beforeDevCommand": "yarn dev",
-    "devPath": "http://localhost:8080",
+    "devPath": "http://localhost:3003 ",
     "distDir": "../dist"
   },
   "package": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.tauri.vue.adminlte.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
